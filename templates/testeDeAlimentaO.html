@@ -1,0 +1,26 @@
+<ion-view title="Teste de Alimentação" id="page10">
+  <ion-content padding="true" class="has-header">
+    <div id="testeDeAlimentaO-markdown31" class="show-list-numbers-and-dots">
+      <p style="color:#000000;">Quantas vezes por semana você consome:</p>
+    </div>
+    <form id="testeDeAlimentaO-form5" class="list">
+      <ion-item class="range range-positive" id="testeDeAlimentaO-range1">Frutas
+        <input type="range" value="5" min="0" max="10" step="1" ng-model="dados.frutas">
+      </ion-item>
+      <ion-item class="range range-positive" id="testeDeAlimentaO-range4">Verduras
+        <input type="range" value="5" min="0" max="10" step="1" ng-model="dados.verduras">
+      </ion-item>
+      <ion-item class="range range-positive" id="testeDeAlimentaO-range3">Carne Vermelha
+        <input type="range" value="5" min="0" max="10" step="1" ng-model="dados.vermelha">
+      </ion-item>
+      <ion-item class="range range-positive" id="testeDeAlimentaO-range2">Carne Branca
+        <input type="range" value="5" min="0" max="10" step="1" ng-model="dados.branca">
+      </ion-item>
+      <ion-item class="range range-positive" id="testeDeAlimentaO-range5">Liquidos
+        <input type="range" value="5" min="0" max="10" step="1" ng-model="dados.liquido">
+      </ion-item>
+    </form>
+    <button id="testeDeAlimentaO-button13" ng-click="dados.soma()" class="button button-positive button-block">calcular</button>
+    <h1 id="testeDeAlimentaO-heading8" style="color:#000000;text-align:center;">{{dados.resultado}}</h1>
+  </ion-content>
+</ion-view>
